@@ -29,7 +29,7 @@ WORKDIR /app
 COPY requirements.txt requirements.txt
 RUN pip install --no-cache-dir --upgrade -r requirements.txt
 
-EXPOSE 8501
+EXPOSE 8502
 
 COPY . .
 
