@@ -6,6 +6,7 @@ if __name__ == "__main__":
                     page_icon='✅',
                     initial_sidebar_state='collapsed')
     st.title('🔨 Streamlit Template')
+    import ibm_db
     st.markdown("""
         This app is only a template for a new Streamlit project. <br>
 
